@@ -1,5 +1,5 @@
 class Solution:
-    def subtreeWithAllDeepest(obj, root):
+    def subtreeWithAllDeepest(self, root):
         def dfs(node):
             if not node:
                 return None, 0

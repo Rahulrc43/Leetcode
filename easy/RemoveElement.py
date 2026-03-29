@@ -1,5 +1,5 @@
-class Sokution:
-    def removeElement(self ,nums,val):
+class Solution:
+    def removeElement(self, nums, val):
         k = 0
 
         for i in range(len(nums)):
